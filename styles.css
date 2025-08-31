@@ -1,0 +1,18 @@
+.hypercontext-tooltip {
+  position: absolute;
+  background-color: #1e1e1e; /* Dark bg for minimalism */
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  pointer-events: auto; /* Allow clicks */
+  white-space: pre-wrap; /* Wrap text nicely */
+  font-family: Arial, sans-serif;
+}
+
+.hypercontext-tooltip strong {
+  color: #ffd700; /* Gold for term highlight */
+}
